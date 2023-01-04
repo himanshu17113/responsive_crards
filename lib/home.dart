@@ -17,7 +17,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: SafeArea(
         child: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               Flexible(
                 child: Container(
@@ -112,7 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             child: Flexible(
                                 child: Container(
                               color: Color.fromRGBO(196, 196, 196, 1),
-                              width: 162,
+                              width: 324,
                               height: 50,
                             )),
                           ),
